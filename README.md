@@ -40,6 +40,3 @@ docker-compose up --build --detach
 * SQL Injection via search box. - `item%' union all select * from user; -- ` 
 * Cross Site Scripting via search box. - `<script>alert("hey guy");</script>`
 
----
-Start changes to make a new commit.
----
