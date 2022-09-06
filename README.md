@@ -41,5 +41,5 @@ docker-compose up --build --detach
 * Cross Site Scripting via search box. - `<script>alert("hey guy");</script>`
 
 ---
-Start changes to make a new commit.
+Come learn how to security.
 ---
