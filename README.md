@@ -43,4 +43,5 @@ docker-compose up --build --detach
 ---
 Come learn how to security.
 harder, better, faster, stronger.
+Trying from local clone
 ---
