@@ -30,5 +30,5 @@ jobs:
       - name: Run CLI Scan
         env:
           APP_ID: ${{ secrets.HAWK_APP_ID }}
-          ACTUAL_COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
+          PR_COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
         run: hawk ${{ secrets.HAWK_TEST_OPTIONS }} --api-key=${{ secrets.HAWK_API_KEY }} scan

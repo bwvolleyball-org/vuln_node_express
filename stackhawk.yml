@@ -8,7 +8,7 @@ app:
   host: http://localhost:3000 # (required)
 tags:
   - name: _STACKHAWK_GIT_COMMIT_SHA
-    value: ${ACTUAL_COMMIT_SHA:${GITHUB_SHA:}}
+    value: ${PR_COMMIT_SHA:${GITHUB_SHA:}}
   - name: _STACKHAWK_GIT_BRANCH
     value: ${GITHUB_HEAD_REF:${GITHUB_REF_NAME:}}
 
