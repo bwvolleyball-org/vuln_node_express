@@ -13,7 +13,7 @@ tags:
   - name: _STACKHAWK_GIT_BRANCH
     value: ${BRANCH_NAME:}
 hawk:
-  failureThreshold: medium
+  failureThreshold: high
 
 # -- Customized Configuration for GraphQL/SOAP/OpenAPI, add here --
   # Configuration Docs: https://docs.stackhawk.com/hawkscan/configuration/
