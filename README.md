@@ -47,5 +47,5 @@ docker-compose up --build --detach
 >
 > Max Kaakaww!
 
-Please
+Eye Candy
 
